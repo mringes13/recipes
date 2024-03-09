@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { styled } from 'styled-components';
+import DinnerData from './dinner.json';
+import Recipe from './components/Recipe';
 
-function App() {
+import backgroundImage from './bg.jpg';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <StyledDiv>
+        <StyledNav>
+            <Link to="/">Recipe Router</Link>
+        </StyledNav>
 
+        <Routes>
+          <Route path="/recipe/:url" element={<Recipe />} />
+          <Route path="/" element={<RecipeList recipes={DinnerData} />} />
+        </Routes>
+      </StyledDiv>
+    </Router>
+  );
+};
+
+const RecipeList = ({ recipes }) => {
+  return (
+    <StyledList>
+      {recipes.map(recipe => (
+        <li key={recipe.id}>
+          <Link to={`/recipe/${recipe.url}`}>{recipe.title}</Link>
+        </li>
+      ))}
+    </StyledList>
+  );
+};
+const StyledDiv = styled.div`
+  background-image: url(${backgroundImage});
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  min-height: 100vh;
+
+`
+const StyledNav = styled.nav`
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Rock Salt", cursive;
+  }
+`
+const StyledList = styled.ul`
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+`
 export default App;
