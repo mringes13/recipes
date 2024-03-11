@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "url": "spicy-italian-sausage-pasta",
+        "title": "Spicy Italian Sausage Pasta",
+        "description": "The perfect weeknight dinner with simple ingredients and incredible flavor. Delivers on both simplicity and tastiness. Whip up the creamy, spicy sausage tomato sauce while your pasta cooks, and in about 20 minutes, you've got a bowl of flavorful and filling pasta!",
+        "servings": 4,
+        "prepTime": "10min",
+        "cookTime": "20min",
+        "totalTime": "30min",
+        "ingredients": [
+            "8oz rigatoni pasta",
+            "1/4 cup reserved pasta water",
+            "2 tbsp butter",
+            "1/2 lb spicy Italian sausage, casings removed",
+            "salt and pepper, to taste",
+            "5 cloves garlic, sliced or minced",
+            "2 tbsp tomato paste",
+            "2 tsp dried basil",
+            "1/4 teaspoon crushed red pepper flakes",
+            "1 cup dry white wine",
+            "1/2 cup heavy cream",
+            "14.5oz can fire roasted diced tomatoes",
+            "1/2 cup parmesan cheese"
+        ],
+        "steps": [
+            "Boil your pasta in salted water according to package directions for al dente. Reserve 1/4 cup of the pasta water for the sauce before draining.",
+            "While pasta cooks, make the sauce. In a large deep sauce pan over M heat, heat olive oil and butter, until butter is fully melted.",
+            "Add the sausage to the pan, and season with salt and pepper. Cook, breaking up as you go, until browned, 5-6 minutes.",
+            "Add the garlic and cook until just fragrant, 1 minute.",
+            "Add tomato paste, dried basil and crushed red pepper flakes. Cook, stirring occasionally for 2-3 minutes, until color deepens.",
+            "Deglaze pan with wine, and cook, stirring for 4-5 minutes until wine is mostly evaporated.",
+            "Add the diced tomatoes, and cream, and simmer for 5-6 minutes until sauce is slightly thickened.",
+            "Add the cooked pasta, reserved pasta water and parmesan cheese, and toss to combine. Cook 2-3 minutes more until thick and glossy.",
+            "Serve with fresh chopped basil, and additional grated parmesan.",
+            "Enjoy!"
+        ]
+    },
+    {
+        "id": 2,
+        "url": "ground-beef-italian-meatballs",
+        "title": "Ground Beef Italian Meatballs",
+        "description": "Skip the frozen meatballs and make your own ground Italian beef meatballs with simple ingredients.",
+        "servings": "24 meatballs",
+        "prepTime": "15min",
+        "cookTime": "10min",
+        "totalTime": "25min",
+        "ingredients": [
+            "1 pound ground beef",
+            "1/2 cup panko breadcrumbs",
+            "1/4 cup whole milk",
+            "1 whole egg",
+            "1/4 cup freshly grated parmesan cheese",
+            "1/4 cup finely chopped yellow onion (3/4 tsp)",
+            "2 garlic cloves (finely minced)",
+            "2 tbsp finely chopped parsley leaves",
+            "1 tbsp finely chopped fresh basil leaves",
+            "1/2 tsp kosher salt",
+            "1/4 tsp ground black pepper"
+        ],
+        "steps": [
+            "Preheat the over to 450ºF.",
+            "Place the breadcrumbs in a large bowl then pour in the milk.",
+            "Add egg and the remaining ingredients, except beef into the mixture. Whisk to combine.",
+            "Add the minced beef and mix with your hands until combined. Do not overmix.",
+            "Use a cookie scoop to grab some rawq meat then gently roll between your hands to make perfectly-sized uniform meatballs.",
+            "Arrange the meatballs on the prepared baking sheets. Do not overcrowd.",
+            "Bake the meatballs for about 10 minutes or until browned and cooked through.",
+            "Let the meatballs rest for 5 minutes before serving."
+        ],
+        "source": "Posh Journal"
+    },
+    {
+        "id": 3,
+        "url": "stuffed-shells",
+        "title": "Stuffed Shells",
+        "description": "These spinach and ricotta stuffed shells are such a comforting, flavorful dinner!",
+        "servings": "4 servings",
+        "prepTime": "20min",
+        "cookTime": "30min",
+        "totalTime": "50min",
+        "ingredients": [
+            "18 to 20 jumbo pasta shells",
+            "Extra virgin olive oil",
+            "5 oz spinach",
+            "2 cups marinara sauce",
+            "2 cups (16 oz) ricotta cheese",
+            "1/4 grated pecorino cheese",
+            "2 garlic cloves, grated",
+            "1 tsp oregano",
+            "1 tsp lemon zest",
+            "1/4 tsp red pepper flakes",
+            "3/4 tsp sea salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Preheat the over to 425ºF.",
+            "Place the 5oz spinach in a steamer basket and set over a pot with 1-inch of water. Bring the water to a simmer, cover, and let steam for 1 minute, until spinach is wilted. Transfer to a strainger and squeeze out the excess water and chop the spinach.",
+            "In a large pot of salted boiling water, cook the pasta shells for 10 minutes, until al dente. Drain and drizzle with a little olive oil to keep them from sticking together.",
+            "In a medium bowl, combine the spinach with the ricotta (2 cups), pecorino, garlic (2 cloves), oregano (1 tsp), lemon zest (1 tsp), red pepper flakes (1/4 tsp), salt and several grinds of pepper.",
+            "Spread the marinara in the bottom of 9x13 baking dish. Stuff each shell with the filling and place in the dish. Cover with foil and bake for 20 minutes. Serve with more marinara on the side."
+        ],
+        "source": "love&lemons"
+    }
+]
